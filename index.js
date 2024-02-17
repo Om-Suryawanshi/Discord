@@ -44,5 +44,7 @@ for (const file of eventFiles) {
 	}
 }
 
+// Include the keep_alive.js file
+require('./keep_alive');
 
 client.login(token);
